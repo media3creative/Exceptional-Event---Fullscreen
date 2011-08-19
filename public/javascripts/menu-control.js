@@ -225,7 +225,7 @@ jQuery(document).ready(function() {
 			changePage("#contactPage-2","contact.jpg");
 		}
 	)
-	//setInterval(slideShow,6500);
+	setInterval(slideShow,4500);
 	if(is_ipad
 		|| is_iphone){
 		//window.location.reload(true);
@@ -318,10 +318,10 @@ function slideShow(){
 			switchBg("bg_1_2.jpg");
 		}
 		if(whichPic == 3){
-			switchBg("bg_1_4.jpg");
+			switchBg("bg_1_3.jpg");
 		}
 		if(whichPic == 4){
-			switchBg("bg_1_5.jpg");
+			switchBg("bg_1_4.jpg");
 			whichPic = 0;
 		}
 
@@ -335,8 +335,8 @@ function switchBg(whichBg){
 	jQuery(".bg1").css("display","none");
 	jQuery(".bg1").css("background-image","url(/images/"+ whichBg + ")");
 	
-	jQuery(".bg2").fadeOut(1500);
-	jQuery(".bg1").fadeIn(1500);
+	jQuery(".bg2").fadeOut(4000);
+	jQuery(".bg1").fadeIn(4000);
 	bg_2_pic = bg_1_pic;
 	bg_1_pic = whichBg;
 	}

@@ -87,6 +87,13 @@ jQuery(document).ready(function() {
 		}
 		changePage("#homePage","bg_1.jpg");
 	});
+	jQuery('.homeLogoBtn').click(function(){
+		closeSubmenu();
+		if(jQuery('#homePage').css("display") == "none"){
+				jQuery('#homePage').slideToggle("fast");
+		}
+		changePage("#homePage","bg_1.jpg");
+	});
 	jQuery('#main-2-link').click(function(){
 		changePage("#venuePage","bg_2.jpg");
 	});

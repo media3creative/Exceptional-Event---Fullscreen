@@ -241,24 +241,24 @@ jQuery(document).ready(function() {
 		//jQuery(".content-container").css({"height":"200px","overflow":"auto"});
 	  //document.addEventListener('DOMContentLoaded', loaded, false);
 		
-		jQuery(".content").removeClass("content").addClass("scroller")
-		jQuery("#homePage, #venuePage, #galleryPage, #reservationPage, #calendarPage, #happyHourPage, #menuPage-1, #menuPage-2, #menuPage-3,#menuPage-4, #menuPage-5, #menuPage-6, #contactPage-1").css({"height":"400px","overflow":"auto","top":"75px","display":"block","left":"-1400px"});
-		jQuery("#reservationPage, #contactPage-1").css({"height":"auto","overflow":"visible","top":"75px","display":"block","left":"-1400px"}).removeClass("scroller")
-		scroll1 = new iScroll('homePage');
-		scroll2 = new iScroll('menuPage-1');
-		scroll3 = new iScroll('menuPage-2');
-		scroll4 = new iScroll('menuPage-3');
-		scroll5 = new iScroll('menuPage-4');
-		scroll6 = new iScroll('menuPage-5');
-		scroll7 = new iScroll('menuPage-6');
-		scroll8 = new iScroll('venuePage');
-		scroll10 = new iScroll('galleryPage');
+		//jQuery(".content").removeClass("content").addClass("scroller")
+		//jQuery("#homePage, #venuePage, #galleryPage, #reservationPage, #calendarPage, #happyHourPage, #menuPage-1, #menuPage-2, #menuPage-3,#menuPage-4, #menuPage-5, #menuPage-6, #contactPage-1").css({"height":"400px","overflow":"auto","top":"75px","display":"block","left":"-1400px"});
+		//jQuery("#reservationPage, #contactPage-1").css({"height":"auto","overflow":"visible","top":"75px","display":"block","left":"-1400px"}).removeClass("scroller")
+		//scroll1 = new iScroll('homePage');
+		//scroll2 = new iScroll('menuPage-1');
+		//scroll3 = new iScroll('menuPage-2');
+		//scroll4 = new iScroll('menuPage-3');
+		//scroll5 = new iScroll('menuPage-4');
+		//scroll6 = new iScroll('menuPage-5');
+		//scroll7 = new iScroll('menuPage-6');
+		//scroll8 = new iScroll('venuePage');
+		//scroll10 = new iScroll('galleryPage');
 		//scroll11 = new iScroll('reservationPage', { useTransition:true });
-		scroll12 = new iScroll('calendarPage');
-		scroll13 = new iScroll('happyHourPage');
-	//	scroll14 = new iScroll('contactPage', { useTransition:true });
+		//scroll12 = new iScroll('calendarPage');
+		//scroll13 = new iScroll('happyHourPage');
+		//scroll14 = new iScroll('contactPage', { useTransition:true });
 		
-	  document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	  //document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 	}
 	//scroll1 = new iScroll('homePage', { useTransition:true });
   //document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);

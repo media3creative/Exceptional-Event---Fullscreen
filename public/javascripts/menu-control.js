@@ -49,10 +49,10 @@ function closeSubmenu(){
 jQuery(document).ready(function() {
 	var scroll1, scroll2;
   function loaded() {
-  scroll1 = new iScroll('homePage', { useTransition:true });
+  //scroll1 = new iScroll('homePage', { useTransition:true });
   }
-  document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-  document.addEventListener('DOMContentLoaded', loaded, false);
+  //document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+  //document.addEventListener('DOMContentLoaded', loaded, false);
 
 	var stageHeight = parseInt(jQuery(window).height()) - 20 + "px";
 	jQuery('.left-side-bar').css("height",stageHeight);
